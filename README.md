@@ -1,6 +1,6 @@
-Climate Change Impact Dashboard (Tableau)
+
 🧩 Project Title
-Climate Change Impact Dashboard
+Climate Change Impact Dashboard (Tableau)
 
 🛠 Tools Used
 Tableau Public/Desktop
