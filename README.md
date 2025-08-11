@@ -22,7 +22,7 @@
 · Interactive geographic map with drill-down
 · Dynamic filters for year range, metric, and country groupings
 
-1.	Tools & Technologies
+•	Tools & Technologies
 1.	Tableau Desktop/Public for dashboard development
 2.	Global climate CSV datasets (temperature, emissions, sea level)
 3.	Calculated fields for anomaly and growth rate computations
@@ -30,47 +30,48 @@
 5.	Geographic mapping for choropleth and point visualizations
 6.	Trend lines and forecast models for projection analysis
 7.	Presentation mode and Tableau Public publishing
-
-2.	Repository Contents
+   
+•	Repository Contents
 1.	Climate_Change_Impact_Dashboard.twbx — Tableau workbook
 2.	global_climate_data.csv — Combined dataset
 3.	README.md — Project documentation
 4.	assets/screenshot_overview.png — Dashboard preview
 5.	assets/data_dictionary.pdf — Field definitions
-
-3.	Data Overview
+   
+•	Data Overview
 1.	File: global_climate_data.csv (NOAA, NASA, IPCC)
 2.	Metrics: Year, Country, Avg_Temperature, CO₂_Emissions, Sea_Level
 3.	Processing: Cleaned and merged in Excel; formatted for Tableau
-4.	Calculated Fields:
+   
+5.	Calculated Fields:
 · Temperature_Anomaly = Avg_Temperature – baseline_1960
 · Emissions_Share = CO₂_Emissions / Global_Total
 · Sea_Level_Rate = (Sea_Level – Sea_Level_1960) / (Year – 1960)
 
-4.	Key Insights Discovered
+•	Key Insights Discovered
 1.	Global average temperature has risen by 1.2 °C since 1960
 2.	Top five emitting countries account for over 60% of global CO₂ emissions
 3.	Sea levels are rising at 3.3 mm per year on average
 4.	Asia and North America exhibit the highest emission densities
 5.	Decadal heatmaps reveal accelerated warming in polar and equatorial regions
 6.	Projections estimate an additional 0.8 °C rise by 2050 under current trends
-
-5.	Strategic Recommendations
+   
+•	Strategic Recommendations
 1.	Prioritize emission reduction in top emitting countries
 2.	Enhance coastal resilience planning based on sea-level projections
 3.	Invest in renewable energy in high-density regions
 4.	Implement global temperature monitoring for early anomaly detection
 5.	Publish dashboards for transparency and stakeholder engagement
-
-6.	Dashboard Features & Navigation
+   
+•	Dashboard Features & Navigation
 1.	Overview Page: Summary KPIs and trend lines
 2.	Temperature Analysis: Line charts and anomaly heatmaps
 3.	Emissions Page: Bar charts, rankings, and density maps
 4.	Sea-Level Page: Time series and projections
 5.	Comparison Tools: Dual-axis cross-metric charts
 6.	Interactive Filters: Year slider, country selector, metric toggle
-
-7.	Usage Instructions
+   
+•	Usage Instructions
 1.	Prerequisites: Tableau Desktop/Public installed
 2.	Open Climate_Change_Impact_Dashboard.twbx in Tableau
 3.	Ensure global_climate_data.csv is accessible
