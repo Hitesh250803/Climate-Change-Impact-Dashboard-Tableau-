@@ -11,6 +11,7 @@
 · Compare emission densities across continents
 · Enable interactive filtering by year, country, and metric
 · Provide a publishable Tableau workbook for stakeholder engagement
+
 •	Key Performance Indicators & Features
 · Global temperature anomaly (°C) relative to 1960 baseline
 · Cumulative CO₂ emissions by country and region
@@ -19,8 +20,8 @@
 · Emission density map showing per-capita and per-area metrics
 · Decadal trend line charts and heatmaps
 · Interactive geographic map with drill-down
-
 · Dynamic filters for year range, metric, and country groupings
+
 1.	Tools & Technologies
 1.	Tableau Desktop/Public for dashboard development
 2.	Global climate CSV datasets (temperature, emissions, sea level)
@@ -41,8 +42,7 @@
 1.	File: global_climate_data.csv (NOAA, NASA, IPCC)
 2.	Metrics: Year, Country, Avg_Temperature, CO₂_Emissions, Sea_Level
 3.	Processing: Cleaned and merged in Excel; formatted for Tableau
-   
-5.	Calculated Fields:
+4.	Calculated Fields:
 · Temperature_Anomaly = Avg_Temperature – baseline_1960
 · Emissions_Share = CO₂_Emissions / Global_Total
 · Sea_Level_Rate = (Sea_Level – Sea_Level_1960) / (Year – 1960)
